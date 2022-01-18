@@ -20,7 +20,7 @@ const typewrite = () => {
     quoteArray[index] += ' ';
     flag = false;
   }
-   document.querySelector("#quote").innerHTML = quoteArray[index].substring(0, textPosition) + '<span>\u25AE</span>';
+  document.querySelector("#quote").innerHTML = quoteArray[index].substring(0, textPosition) + '<span>\u25AE</span>';
   
   if (textPosition++ != quoteArray[index].length) {
     setTimeout('typewrite()', 100);
