@@ -1,1 +1,1 @@
-# QuotesTypeWriterJS
+# Quotes Type Writer JS
